@@ -8,8 +8,6 @@ import { MatSort, MatSortModule } from '@angular/material/sort';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { UsersType } from 'src/interface/User.interface';
 import { CoreService } from './core/core.service';
-// import { MatInputModule } from '@angular/material/input';
-// import { MatFormFieldModule } from '@angular/material/form-field';
 
 @Component({
   selector: 'app-root',

@@ -39,8 +39,6 @@ Before you begin, ensure you have met the following requirements:
 
       ```bash
           Composer install
-          php bin/console doctrine:database:create
-          php bin/console doctrine:migrations:migrate
       ```
 
 3. Configure your database connection in the .env file.
@@ -79,8 +77,8 @@ Before you begin, ensure you have met the following requirements:
 
 4. Start Server
 
-              ```bash
-                 ng serve
-              ```
+                ```bash
+                   ng serve
+                ```
 
       Access the frontend at http://localhost:4200.
